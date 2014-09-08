@@ -17,14 +17,18 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     font-size: 100%;
+    background-color: lightgrey;
+}
+
+.wrapper {
+    background-color: #ffffff;    
 }
 
 img {
 	width: 100%;
     display: block;
-    border-bottom: ;
+    border-bottom: lightgrey;
 }
 
 body {
@@ -34,20 +38,23 @@ body {
 h1 {  
     color: #993333;
     font-weight: normal;
-    font-size: 3rem; 
+    font-size: 1.2rem; 
 }
 
 figure{
-    border-top: 2px solid lightgrey;
+    border-top: 1px solid lightgrey;
     margin: 0;
     padding: 0;
     align-content: center;
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
+
 figcaption{
     align-content: center;
     margin: .2rem;
     padding:0;
+    font-size: .80rem;
+    color: #666666;
 }
 
 p{
@@ -56,6 +63,11 @@ p{
 
 blockquote{ 
     font-family: georgia, serif;
+}
+
+cite {
+    color: #666666;
+    font-size: .80rem;
 }
 
 h2 {
